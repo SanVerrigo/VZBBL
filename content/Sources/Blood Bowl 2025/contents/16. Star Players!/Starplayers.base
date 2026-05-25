@@ -1,0 +1,128 @@
+filters:
+  and:
+    - file.tags.contains("starplayer")
+formulas:
+  File-name-as-link: concat("[[", file.name, "]]")
+  Filename-as-Link: '"[[" + file.name + "]]"'
+properties:
+  formula.Filename-as-Link:
+    displayName: Имя
+views:
+  - type: table
+    name: Table
+    order:
+      - formula.Filename-as-Link
+      - cost
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Badlands Brawl
+    filters:
+      and:
+        - leagues.containsAny(link("Badlands Brawl"), "any")
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Badlands Brawl"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Chaos Clash
+    filters:
+      and:
+        - leagues.containsAny("any", link("Chaos Clash"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Chaos Clash"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Elven Kingdom League
+    filters:
+      and:
+        - leagues.containsAny("any", link("Elven Kingdoms League"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Elven Kingdoms League"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Halfling Thimble Cup
+    filters:
+      and:
+        - leagues.containsAny("any", link("Halfling Thimble Cup"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Halfling Thimble Cup"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Lustrain Superleague
+    filters:
+      and:
+        - leagues.containsAny(link("Lustrian Superleague"), "any")
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].contains(link("Lustrian Superleague"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Old World Classic
+    filters:
+      and:
+        - leagues.containsAny("any", link("Old World Classic"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Old World Classic"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Sylvanian Spotlight
+    filters:
+      and:
+        - leagues.containsAny("any", link("Sylvanian Spotlight"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Sylvanian Spotlight"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Underworld Challenge
+    filters:
+      and:
+        - leagues.containsAny("any", link("Underworld Challenge"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Underworld Challenge"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Woodland League
+    filters:
+      and:
+        - leagues.containsAny("any", link("Woodland League"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Woodland League"))'
+    order:
+      - formula.Filename-as-Link
+      - cost
+  - type: table
+    name: Worlds Edge Superleague
+    filters:
+      and:
+        - leagues.containsAny("any", link("Worlds Edge Superleague"))
+        - or:
+            - note["leagues exception"].isEmpty()
+            - '!note["leagues exception"].containsAny(link("Worlds Edge Superleague"))'
+    order:
+      - formula.Filename-as-Link
+      - cost

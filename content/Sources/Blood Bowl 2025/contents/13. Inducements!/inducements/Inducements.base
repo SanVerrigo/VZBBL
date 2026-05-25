@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.tags.contains("inducement")
+formulas:
+  Наименование: '"[[" + file.name + "]]"'
+views:
+  - type: table
+    name: Ru
+    filters:
+      and:
+        - lang == "ru"
+    order:
+      - formula.Наименование
+      - Количество
+      - Стоимость
+      - Доступ

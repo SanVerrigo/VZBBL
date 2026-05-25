@@ -1,0 +1,63 @@
+filters:
+  and:
+    - type.containsAny("skill", "trait")
+    - source.contains("vanilla")
+    - source.contains("3e")
+views:
+  - type: table
+    name: All Skills
+    groupBy:
+      property: skill traits
+      direction: ASC
+    order:
+      - file.name
+      - skill traits
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 140
+    indentProperties: false
+  - type: table
+    name: Agility
+    filters:
+      and:
+        - note["skill traits"].contains("agility")
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 169
+      note.skill traits: 131
+    indentProperties: true
+  - type: table
+    name: Devious
+    filters:
+      and:
+        - note["skill traits"].contains("devious")
+  - type: table
+    name: General
+    filters:
+      and:
+        - note["skill traits"].contains("general")
+  - type: table
+    name: Mutation
+    filters:
+      and:
+        - note["skill traits"].contains("mutation")
+  - type: table
+    name: Passing
+    filters:
+      and:
+        - note["skill traits"].contains("passing")
+  - type: table
+    name: Strength
+    filters:
+      and:
+        - note["skill traits"].contains("strength")
+  - type: table
+    name: Traits
+    filters:
+      and:
+        - type == "trait"
