@@ -5,4 +5,4 @@
 | ------------------------------------ | ------------- | -------------------------- |
 | [@verrigo](https://t.me/verrigo)     | ?             | ?                          |
 | [@pvtanimal](https://t.me/pvtanimal) | [[Lizardmen]] | ?                          |
-
+| [@Jankiman](https://t.me/Jankiman)   | [[Wood Elf]]  | ?                          |
