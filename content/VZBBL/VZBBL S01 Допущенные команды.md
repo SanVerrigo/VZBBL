@@ -1,0 +1,31 @@
+- [[Amazon]] (BB2025);
+- [[Black Orc]] (BB2025)
+- [[Bretonnian]] (BB2025);
+- [[Chaos Chosen]] (BB2025);
+- [[Chaos Dwarf]] (BB2025);
+- [[Chaos Renegades]] (BB2025);
+- [[Dark Elf]] (BB2025);
+- [[Dwarf]] (BB2025);
+- [[Elven Union]] (BB2025);
+- [[Goblin]] (BB2025);
+- [[Gnome]] (BB2025);
+- [[Halfling]] (BB2025);
+- [[High Elf]] (Teams of Legends 2025);
+- [[Human]] (BB2025)
+- [[Imperial Nobility]] (BB2025)
+- [[Khorne]] (BB2025);
+- [[Lizardmen]] (BB2025);
+- [[Necromantic Horror]] (BB2025);
+- [[Norse]] (BB2025);
+- [[Nurgle]] (BB2025);
+- [[Ogre]] (BB2025);
+- [[Old World Alliance]] (BB2025);
+- [[Orc]] (BB2025);
+- [[Shambling Undead]] (BB2025);
+- [[Skaven]] (BB2025);
+- [[Slanns]] (NAF Rules and Regulations 2025);
+- [[Snotling]] (BB2025);
+- [[Tomb King]] (BB2025);
+- [[Underworld Denizens]] (BB2025);
+- [[Vampire]] (BB2025);
+- [[Wood Elf]] (BB2025).
