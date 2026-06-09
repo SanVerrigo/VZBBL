@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: vzbbl.ru
+  baseUrl: sanverrigo.github.io/VZBBL
   ignorePatterns:
     - private
     - templates
