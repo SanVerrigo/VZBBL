@@ -7,3 +7,4 @@
 | [@pvtanimal](https://t.me/pvtanimal)         | [[Lizardmen]] | ?                          |
 | [@Jankiman](https://t.me/Jankiman)           | [[Wood Elf]]  | ?                          |
 | [@Blazer_chaser](https://t.me/Blazer_chaser) | [[Amazon]]    | ?                          |
+| [@troglodyteyo](https://t.me/troglodyteyo)   | [[Skaven]]    | ?                          |
