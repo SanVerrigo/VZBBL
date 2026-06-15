@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ru-RU
   baseUrl: vzbbl.ru
   ignorePatterns:
     - private
@@ -156,7 +156,7 @@ plugins:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -247,6 +247,11 @@ plugins:
         - description
         - tags
         - aliases
+        - type
+        - activity
+        - skill traits
+        - isElite
+        - mandatory
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
