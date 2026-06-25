@@ -3,6 +3,8 @@ title: VZBBL Season 1 - Summertime Drive!
 ---
 ![[VZBBL S01 logo.png]]
 **Контакт комиссионера** - [telegram @verrigo](https://t.me/verrigo).
+**Памятка по проведению матча** - [[Памятка VZBBL]].
+**Памятка по послематчевой прогрессии** - [[VZBBL Послематчевая прогрессия]].
 
 Это разводящая Первого сезона лиги Vanilla Zelenograd Blood Bowl League.
 Мы играем по ванильным правилам большого BB с минимальными хоумрулами.
